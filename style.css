@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NAV BAR */
+nav {
+  background-color: #222;
+  padding: 1rem;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #ddd;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  color: #222;
+  transition-duration: .2s;
+}
+
+/* MAIN */
+main {
+  padding: 1rem;
+}
+
+/* CONTRAST */
+.contrast-main {
+  background-color: blue;
+  color: cornflowerblue;
+}
+
+.contrast-main p {
+  padding: 1rem;
+}
+
+/* REPITITION */
+.repitition-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.repitition-potatoes {
+  background-color: rgb(215, 255, 155);
+  border: 3px solid #222;
+  border-radius: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.repitition-pastrami {
+  background-color: rgb(255, 255, 176);
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.repitition-bees {
+  background-color: rgb(141, 30, 149);
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: .8rem;
+  padding: .5rem;
+}
+
+/* ALIGNMENT */
+.alignment-main {
+  display: flex;
+}
+
+.alignment-card {
+  background-color: blanchedalmond;
+  border: 3px solid #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* PROXIMITY */
+.proximity-main {
+  display: flex;
+}
+
+.proximity-card {
+  background-color: rgb(255, 222, 222);
+  border: 3px solid #222;
+  border-radius: 10px;
+  width: 250px;
+}
